@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@500&display=swap");
+body {
+    background: #dddddd;
+    margin: 0;
+    font-family: "Azeret Mono";
+}
+
+.navbar div {
+    display: flex;
+    font-family: "Azeret Mono";
+    background: #222831;
+    padding: 1em;
+
+    .text-logo {
+        text-decoration: none;
+        font-weight: bold;
+        color: #dddddd;
+        font-size: 2em;
+        letter-spacing: 0.2em;
+        padding-left: 2em;
+        padding-top: 0.2em;
+
+        span {
+            color: #f05454;
+        }
+    }
+
+    .navigation-paths {
+        padding-left: 18em;
+        display: flex;
+        list-style: none;
+
+        a {
+            font-weight: bold;
+            font-size: 1.2em;
+            padding-left: 2em;
+            text-decoration: none;
+            color: #f05454;
+        }
+    }
+}
+
+.playing-field {
+    padding-left: 5em;
+    padding-right: 5em;
+
+    display: flex;
+    .profile-pic {
+        padding-left: 15em;
+
+        .name {
+            font-size: 0.9em;
+        }
+
+        p {
+            font-size: 0.6em;
+        }
+
+        img {
+            width: 15em;
+            height: 15em;
+            border-radius: 1em;
+            margin-top: 3.5em;
+        }
+    }
+    .about-me {
+        background-color: #f05454;
+        margin: 1em 0em 1em 2em;
+
+        p {
+            padding-top: 3.5em;
+            padding-left: 1.5em;
+            padding-right: 15em;
+            padding-bottom: 3.5em;
+            text-align: justify;
+        }
+    }
+}
+.crybaby-hero {
+    text-align: center;
+}
+
+.machine-problems {
+    text-align: center;
+    background: #30475e;
+
+
+    img{
+
+        width: 10em;
+        height: 10em;
+    }
+    ul {
+        color: #dddddd;
+        list-style-type: none;
+        display: flex;
+        
+       
+
+        list {
+            margin: 2.5em;
+            h3 {
+                font-size: 0.8em;
+            }
+            h4{
+                font-size: 0.6em;
+            }
+        }
+
+      
+    }
+    
+}
+
+.maker {
+    text-align: center;
+    p {
+        
+        color: #f05454;
+        font-size: 1em;
+    }
+}
+
