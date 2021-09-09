@@ -27,7 +27,7 @@ body {
 
     .navigation-paths {
         padding-left: 18em;
-        
+        display: flex;
         list-style: none;
 
         a {
@@ -44,7 +44,7 @@ body {
     padding-top: 0em;
     padding-bottom: 0em;
    
-   
+    display: flex;
     .profile-pic {
         padding-left: 20em;
 
