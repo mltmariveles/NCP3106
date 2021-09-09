@@ -26,16 +26,16 @@ body {
     }
 
     .navigation-paths {
-        padding-left: 18em;
+        padding-left: 25em;
         display: flex;
         list-style: none;
 
         a {
-            font-weight: bold;
-            font-size: 1.2em;
-            padding-left: 2em;
+            font-weight: normal;
+            font-size: 1em;
+            margin-left: 1.8em;
             text-decoration: none;
-            color: #f05454;
+            color: whitesmoke;
         }
     }
 }
@@ -43,6 +43,7 @@ body {
 .playing-field {
     padding-top: 0em;
     padding-bottom: 0em;
+    margin-bottom: 2em;
    
     display: flex;
     .profile-pic {
@@ -92,6 +93,7 @@ body {
 
 
     img{
+       padding: 2em 2em 0em 2em;
 
         width: 10em;
         height: 10em;
@@ -99,12 +101,12 @@ body {
     ul {
         color: #dddddd;
         display: flex;
-         text-align: center;
+      
        
 
         list {
     
-            padding: 2em;
+           padding-left: 0.7em;
             h3 {
                 font-size: 0.8em;
             }
@@ -120,16 +122,18 @@ body {
 
 .maker-info {
     
+    margin-top: 4em;
     
-    h1 {
+    p {
         text-align: center;
         color: black;
-        font-size: 1em;
+        font-size: 0.6em;
+        padding-top: 0.4;
     }
     img{
         width: 2em;
         height: 2em;
-        align-self: center;
+      
     }
 }
 

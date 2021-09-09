@@ -29,7 +29,7 @@ body {
 }
 
 .navbar div .navigation-paths {
-  padding-left: 18em;
+  padding-left: 25em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -37,16 +37,17 @@ body {
 }
 
 .navbar div .navigation-paths a {
-  font-weight: bold;
-  font-size: 1.2em;
-  padding-left: 2em;
+  font-weight: normal;
+  font-size: 1em;
+  margin-left: 1.8em;
   text-decoration: none;
-  color: #f05454;
+  color: whitesmoke;
 }
 
 .playing-field {
   padding-top: 0em;
   padding-bottom: 0em;
+  margin-bottom: 2em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -93,6 +94,7 @@ body {
 }
 
 .machine-problems img {
+  padding: 2em 2em 0em 2em;
   width: 10em;
   height: 10em;
 }
@@ -102,11 +104,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  text-align: center;
 }
 
 .machine-problems ul list {
-  padding: 2em;
+  padding-left: 0.7em;
 }
 
 .machine-problems ul list h3 {
@@ -117,17 +118,19 @@ body {
   font-size: 0.6em;
 }
 
-.maker-info h1 {
+.maker-info {
+  margin-top: 4em;
+}
+
+.maker-info p {
   text-align: center;
   color: black;
-  font-size: 1em;
+  font-size: 0.6em;
+  padding-top: 0.4;
 }
 
 .maker-info img {
   width: 2em;
   height: 2em;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
 }
 /*# sourceMappingURL=PortfolioStyles.css.map */
