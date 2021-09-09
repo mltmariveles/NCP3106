@@ -27,7 +27,7 @@ body {
 
     .navigation-paths {
         padding-left: 18em;
-        display: flex;
+        
         list-style: none;
 
         a {
@@ -41,12 +41,12 @@ body {
 }
 
 .playing-field {
-    padding-left: 5em;
-    padding-right: 5em;
-
-    display: flex;
+    padding-top: 0em;
+    padding-bottom: 0em;
+   
+   
     .profile-pic {
-        padding-left: 15em;
+        padding-left: 20em;
 
         .name {
             font-size: 0.9em;
@@ -64,16 +64,22 @@ body {
         }
     }
     .about-me {
-        background-color: #f05454;
-        margin: 1em 0em 1em 2em;
-
+      
+    
         p {
-            padding-top: 3.5em;
-            padding-left: 1.5em;
-            padding-right: 15em;
-            padding-bottom: 3.5em;
+            margin-top: 3.3em;
+            margin-left: 1em;
+            padding-right: 20.5em;
+            padding-left: 0.5em;
+            padding-top: 0.5em;
+
+            padding-bottom: 00.5em;
+            border-radius: 1em;
             text-align: justify;
+            background: #ffe98a;
+            
         }
+         
     }
 }
 .crybaby-hero {
@@ -92,13 +98,13 @@ body {
     }
     ul {
         color: #dddddd;
-        list-style-type: none;
         display: flex;
-        
+         text-align: center;
        
 
         list {
-            margin: 2.5em;
+    
+            padding: 2em;
             h3 {
                 font-size: 0.8em;
             }
@@ -112,12 +118,18 @@ body {
     
 }
 
-.maker {
-    text-align: center;
-    p {
-        
+.maker-info {
+    
+    
+    h1 {
+        text-align: center;
         color: black;
         font-size: 1em;
+    }
+    img{
+        width: 2em;
+        height: 2em;
+        align-self: center;
     }
 }
 
