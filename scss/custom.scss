@@ -1,0 +1,89 @@
+$body-bg: #0f3057;
+$body-color: white;
+$primary: #008891;
+$secondary: #ffe700;
+$light: #e7e7de;
+$dark: #0f3057;
+$success: #00587a;
+
+$font-family-sans-serif: 'Comfortaa', sans-serif;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+.container-fluid {
+  margin: 0em;
+  height: 5em;
+  
+}
+
+.navbar-toggler {
+    color: #e7e7de !important;
+}
+
+.navbar-collapse{
+    justify-content: end;
+}
+
+.navbar-brand{
+    padding-top: 0.9em;
+    font-size: 2em;
+    font-weight: bold;
+  
+}
+
+.navbar-nav{
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 0.9em;
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: 1.5rem;
+}
+}
+
+.main-field{
+    background-color: #e7e7de;
+    height: 15em;
+    color: $dark;
+    display: flex;
+}
+
+.navbar-nav {
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 0.9em;
+    background-color: $dark;
+    border-radius: 1.4em;
+   
+}
+
+.profile-pic {
+    border-radius: 2em;
+    vertical-align: middle;
+    margin-top: 1em;
+      margin-bottom: 1em;
+   
+    
+}
+.text-main{
+    padding-top: 5em;
+}
+
+.card{
+    border:none;
+    background-color: $dark;
+}
+
+.card-body{
+background-color:#0f3057 ;
+}
+
+@media (min-width: 1200px){
+h1, .h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+}

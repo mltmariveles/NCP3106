@@ -1,0 +1,29 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@popperjs/core": "^2.10.1",
+    "bootstrap": "^5.1.1"
+  },
+  "devDependencies": {
+    "sass": "^1.42.1"
+  },
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "prebuild": "npx rimraf build",
+    "build": "parcel build --public-url ./ ./src/index.html --experimental-scope-hoisting --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mltmariveles/SOFTWARE-DEVELOPMENT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mltmariveles/SOFTWARE-DEVELOPMENT/issues"
+  },
+  "homepage": "https://github.com/mltmariveles/SOFTWARE-DEVELOPMENT#readme"
+}

@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@500&display=swap");
+body {
+  background: #b8f1f3;
+  margin: 0em;
+  font-family: "Azeret Mono";
+}
+
+.navBar div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #74c3ce;
+  padding: 0em;
+}
+
+.navBar div h1 {
+  padding-left: 1em;
+}
+
+.navBar div .socials {
+  padding-left: 32em;
+}
+
+.navBar div .socials img {
+  padding: 0em 2em 0em 2em;
+  width: 3em;
+  height: 3em;
+}
+
+.layout {
+  margin: 3em;
+}
+
+.layout img {
+  width: 15em;
+  height: 15em;
+  border-radius: 4em;
+}
+
+.layout h2 {
+  font-size: 0.9em;
+}
+
+.layout h3 {
+  font-size: 0.8em;
+}
+
+.container {
+  text-align: center;
+}
+
+.end h1 {
+  font-size: 0.7em;
+}
+/*# sourceMappingURL=Biosecond.css.map */
